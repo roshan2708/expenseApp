@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCXrk3zesgM5y-u7OXvfNLYDyfcjhe4gs8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>149115431755</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.expenseapp</string>
+	<key>PROJECT_ID</key>
+	<string>expenseapp-5509e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>expenseapp-5509e.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:149115431755:ios:d566cbb974755363d616ce</string>
+	<key>DATABASE_URL</key>
+	<string>https://expenseapp-5509e-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

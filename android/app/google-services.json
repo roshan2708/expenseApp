@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "149115431755",
+    "firebase_url": "https://expenseapp-5509e-default-rtdb.firebaseio.com",
+    "project_id": "expenseapp-5509e",
+    "storage_bucket": "expenseapp-5509e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149115431755:android:5ea3d4775db300d2d616ce",
+        "android_client_info": {
+          "package_name": "com.example.expenseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7fwtYXSps0V12qHp8qDc3Z_EMtrosr1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
