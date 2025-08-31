@@ -1,3 +1,4 @@
+import 'package:expenseapp/Constants/Colors.dart';
 import 'package:flutter/material.dart';
 
 class StatusIndicator extends StatelessWidget {
@@ -18,14 +19,14 @@ class StatusIndicator extends StatelessWidget {
         children: [
           Icon(
             Icons.sms,
-            color: smsEnabled ? Colors.green : Colors.red,
+            color: smsEnabled ? AppColors.success : AppColors.error,
           ),
           const SizedBox(width: 8),
           Text("SMS: ${smsEnabled ? 'Enabled' : 'Disabled'}"),
           const SizedBox(width: 20),
           Icon(
             Icons.notifications,
-            color: notificationEnabled ? Colors.green : Colors.red,
+            color: notificationEnabled ? AppColors.success : AppColors.error,
           ),
           const SizedBox(width: 8),
           Text("Notifications: ${notificationEnabled ? 'Enabled' : 'Disabled'}"),

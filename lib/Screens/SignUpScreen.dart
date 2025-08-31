@@ -1,6 +1,7 @@
 import 'package:expenseapp/Components/AuthForm.dart';
-import 'package:flutter/material.dart';
+import 'package:expenseapp/Constants/Colors.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({Key? key}) : super(key: key);
@@ -10,8 +11,8 @@ class SignupScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Sign Up'),
-        backgroundColor: Colors.blue,
-        foregroundColor: Colors.white,
+        backgroundColor: AppColors.primary,
+        foregroundColor: AppColors.primaryForeground,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
